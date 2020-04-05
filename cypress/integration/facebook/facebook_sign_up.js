@@ -1,5 +1,5 @@
-describe('Land and assert Tithebarn URL', () => {
-    it('Launches website homepage', () => {
+describe('Land on the Facebook home page', () => {
+    it('Fills in the sign up page', () => {
 
     //Fill in core information, note this is does not follow DRY and can be wrapped into a function in commands.js
     //For reference I have added a new cy.{method} in the commands file. The example allows the user to see if elements are visible.
