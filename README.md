@@ -23,7 +23,8 @@ To execute tests the following commands need to be executed:
 
 * To Open the Cypress UI runner execute - ./node_modules/.bin/cypress open
 * To Run the Cypress tests in CI execute - ./node_modules/.bin/cypress run
-* To Run the Cypress tests in CI and record for the Dashboard execute - ./node_modules/.bin/cypress run --record --{key}
+* To Run the Cypress tests in CI and record for the Dashboard execute - ./node_modules/.bin/cypress run --record --{key} 
+* https://dashboard.cypress.io/
 
 
 ## Built With
