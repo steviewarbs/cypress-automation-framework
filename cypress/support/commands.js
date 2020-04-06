@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 
-// Create a function that is able to check if elements are visible 
+// Create a function that is able to check if elements are visible and exist.
 
 Cypress.Commands.add('isVisible', (element) => {
     cy.get("body").then($body => {
@@ -33,3 +33,4 @@ Cypress.Commands.add('isVisible', (element) => {
         }
     });
 })
+

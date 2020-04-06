@@ -27,3 +27,34 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false
   })
 
+  //Prints out in the Cypress server logs 
+
+  beforeEach(function () {
+    cy.log('I am signing up for Facebook')
+  })
+
+    //Runs a basic sign up script with hard coded parameters.
+    //This could also be created in the commands.js file and use variables for the elements.  
+
+    // beforeEach(function () {
+
+    //   cy.visit("https://www.facebook.com/")
+    //   cy.get("#u_0_o").type("cypress_test_first_name").should('be.visible') 
+    //   cy.get("#u_0_q").type("cypress_test_surname").should('be.visible') 
+    //   cy.get("#u_0_t").type("07*********").should('be.visible') 
+    //   cy.get("#u_0_y").type("cypress_test_password").should('be.visible') 
+
+    //   //Sets D.O.B from dropdown menu
+
+    //   cy.get('#day').select('10')
+    //   cy.get('#month').select('Aug')
+    //   cy.get('#year').select('1980')
+
+    //   //Select Male/Female
+
+    //   cy.get('#u_0_7').click()
+      
+    // })
+  
+    
+
